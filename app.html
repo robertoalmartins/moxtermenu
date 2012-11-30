@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>
+        </title>
+        <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.1.1/jquery.mobile-1.1.1.min.css"
+        />
+        <link rel="stylesheet" href="my.css" />
+        <style>
+            /* App custom styles */
+        </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js">
+        </script>
+        <script src="https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.1.1/jquery.mobile-1.1.1.min.js">
+        </script>
+        <script src="my.js">
+        </script>
+    </head>
+    
+    <body>
+        <!-- Home -->
+        <div data-role="page" data-theme="a" id="page1">
+            <div data-role="content" style="padding: px">
+                <div>
+                    <p style="text-align: center;">
+                        <b>
+                            Carta de Cervejas
+                        </b>
+                    </p>
+                </div>
+                <div style=" text-align:center">
+                    <img style="width: 100%; height: 100%" src="http://assets.codiqa.com/ps/41511/59e3fa3748dbb0faMoxter.jpg">
+                </div>
+                <a data-role="button" data-transition="slide" data-theme="b" href="#page2"
+                data-icon="arrow-r" data-iconpos="right">
+                    Login
+                </a>
+            </div>
+        </div>
+        <!-- Login -->
+        <div data-role="page" data-theme="a" id="page2">
+            <div data-theme="a" data-role="header">
+                <h3>
+                    Moxter
+                </h3>
+            </div>
+            <div data-role="content">
+                <div style=" text-align:center">
+                    <img style="width: 50px; height: 38px" src="http://assets.codiqa.com/ps/41511/b1a328e9d129d38bIcone_Novo.jpg">
+                </div>
+                <div data-role="fieldcontain">
+                    <fieldset data-role="controlgroup" data-mini="true">
+                        <label for="textinput3">
+                        </label>
+                        <input name="" id="textinput3" placeholder="ID Facebook" value="" type="text">
+                    </fieldset>
+                </div>
+                <div data-role="fieldcontain">
+                    <fieldset data-role="controlgroup" data-mini="true">
+                        <label for="textinput2">
+                        </label>
+                        <input name="" id="textinput2" placeholder="Senha" value="" type="text">
+                    </fieldset>
+                </div>
+                <a data-role="button" data-theme="b" href="#page4" data-icon="arrow-r"
+                data-iconpos="right">
+                    Entrar
+                </a>
+            </div>
+        </div>
+        <!-- Menu -->
+        <div data-role="page" data-theme="a" id="page4">
+            <div data-theme="a" data-role="header">
+                <a data-role="button" href="#page2" data-icon="arrow-l" data-iconpos="notext"
+                class="ui-btn-left">
+                    Voltar
+                </a>
+                <h3>
+                    Moxter
+                </h3>
+            </div>
+            <div data-role="content">
+                <div style=" text-align:center">
+                    <img style="width: 50px; height: 38px" src="http://assets.codiqa.com/ps/41511/b1a328e9d129d38bIcone_Novo.jpg">
+                </div>
+                <ul data-role="listview" data-divider-theme="" data-inset="true">
+                    <li data-theme="c">
+                        <a href="#page6" data-transition="slide">
+                            Cervejas
+                        </a>
+                    </li>
+                    <li data-theme="c">
+                        <a href="#page5" data-transition="slide">
+                            História
+                        </a>
+                    </li>
+                    <li data-theme="c">
+                        <a href="#page1" data-transition="slide">
+                            Moxter Medals
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- Cervejas -->
+        <div data-role="page" data-theme="a" id="page6">
+            <div data-theme="a" data-role="header">
+                <a data-role="button" href="#page2" data-icon="arrow-l" data-iconpos="notext"
+                class="ui-btn-left">
+                    Voltar
+                </a>
+                <h3>
+                    Moxter
+                </h3>
+            </div>
+            <div data-role="content">
+                <div style=" text-align:center">
+                    <img style="width: 50px; height: 38px" src="http://assets.codiqa.com/ps/41511/b1a328e9d129d38bIcone_Novo.jpg">
+                </div>
+                <ul data-role="listview" data-divider-theme="" data-inset="true">
+                    <li data-role="list-divider" role="heading">
+                        Lagers
+                    </li>
+                    <li data-theme="c">
+                        <a href="#page1" data-transition="slide">
+                            Lager
+                        </a>
+                    </li>
+                    <li data-theme="c">
+                        <a href="#page5" data-transition="slide">
+                            Vienna
+                        </a>
+                    </li>
+                    <li data-theme="c">
+                        <a href="#page1" data-transition="slide">
+                            Munich
+                        </a>
+                    </li>
+                    <li data-role="list-divider" role="heading">
+                        Ales
+                    </li>
+                    <li data-theme="c">
+                        <a href="#page1" data-transition="slide">
+                            Trigo
+                        </a>
+                    </li>
+                    <li data-theme="c">
+                        <a href="#page1" data-transition="slide">
+                            Stout
+                        </a>
+                    </li>
+                    <li data-theme="c">
+                        <a href="#page1" data-transition="slide">
+                            Porter
+                        </a>
+                    </li>
+                    <li data-theme="c">
+                        <a href="#page1" data-transition="slide">
+                            Ales
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- História -->
+        <div data-role="page" data-theme="a" id="page5">
+            <div data-theme="a" data-role="header">
+                <a data-role="button" href="#page5" data-icon="arrow-l" data-iconpos="notext"
+                class="ui-btn-left">
+                    Button
+                </a>
+                <h3>
+                    Moxter
+                </h3>
+                <a data-role="button" href="#page4" data-icon="home" data-iconpos="notext"
+                class="ui-btn-left">
+                    Página Inicial
+                </a>
+                <div>
+                    <p>
+                        <span style="font-size: small; font-family: arial, helvetica, sans-serif;">
+                            Historicamente, a cerveja já era conhecida pelo sumérios, egípcios, mesopotâmios
+                            e ibéricos, que remonta pelo menos a 6000 aC. A agricultura surgiu na Mesopotâmia
+                            em um período que estava entre revolução do Neolítico e Idade dos Metais.
+                            A mais antiga lei que regulamenta a produção e a venda de cerveja é a Estela
+                            de Hamurabi, que data de 1760 aC, onde está escrito para ser condenado
+                            à morte quem não respeita os critérios de produção indicados. Incluía várias
+                            leis de comercialização, fabricação e consumo da cerveja, relacionando
+                            direitos e deveres dos clientes das tabernas. O Código de Hamurabi também
+                            estabelecia uma ração diária de cerveja para o povo da Babilônia: 2 litros
+                            para os trabalhadores, 3 dos funcionários públicos e 5 litros para os administradores
+                            e Sumo Sacerdote. O Código também impunha punições severas para os taberneiros
+                            que tentassem enganar os seus clientes .
+                        </span>
+                    </p>
+                    <p>
+                        <span style="font-size: small; font-family: arial, helvetica, sans-serif;">
+                            A notícia mais antiga que se tem da cerveja vem de 2600 a 2350 a.C. Desta
+                            época, arqueólogos encontraram menção no Hino a Ninkasi, a deusa da cerveja,
+                            de que os sumérios já produziam a bebida. Já na Babilônia dá-se conta da
+                            existência de diferentes tipos de cerveja, originadas de diversas combinações
+                            de plantas e aromas, e o uso de diferentes quantidades de mel.
+                        </span>
+                    </p>
+                    <p>
+                        <span style="font-size: small; font-family: arial, helvetica, sans-serif;">
+                            Posteriormente, no antigo Egito, a cerveja, segundo o escritor grego Ateneu
+                            de Náucratis (século III d.C.), teria sido inventada para ajudar a quem
+                            não tinha como pagar o vinho. Inscrições em hieróglifos e obras artísticas
+                            testemunham sobre o gosto deste povo pelo henket ou zythum, apreciada por
+                            todas as camadas sociais. Até um dos faraós, Ramsés III (1184-1153 a.C.),
+                            passou a ser conhecido como "faraó-cervejeiro" após doar aos sacerdotes
+                            do Templo de Amon 466.308 ânforas ou aproximadamente um milhão de litros
+                            de cerveja provenientes de suas cervejeiras.
+                        </span>
+                    </p>
+                    <p>
+                        <span style="font-size: small; font-family: arial, helvetica, sans-serif;">
+                            Praticamente qualquer açúcar ou alimento que contenha amido pode, naturalmente,
+                            sofrer fermentação. Assim, bebidas semelhantes à cerveja foram inventadas
+                            de forma independente em diversas sociedades em redor do mundo. Na Mesopotâmia,
+                            a mais antiga evidência referente à cerveja está numa tabua sumeriana com
+                            cerca de 6.000 anos de idade, na qual se veem pessoas tomando uma bebida
+                            através de juncos de uma tigela comunitária. A cerveja também é mencionada
+                            na Epopeia de Gilgamesh. Um poema sumeriano de 3.900 anos, homenageando
+                            a deusa dos cervejeiros, Ninkasi, contém a mais antiga receita que sobreviveu,
+                            descrevendo a produção de cerveja de cevada utilizando pão.
+                        </span>
+                    </p>
+                    <p>
+                        <span style="font-size: small; font-family: arial, helvetica, sans-serif;">
+                            A cerveja teve alguma importância na vida dos primeiros romanos, mas durante
+                            a República Romana, o vinho destronou a cerveja como a bebida alcoólica
+                            preferida, passando esta a ser considerada uma bebida própria de bárbaros.
+                            Tácito, em seus dias, escreveu depreciativamente acerca da cerveja preparada
+                            pelos povos germânicos.
+                        </span>
+                    </p>
+                    <p>
+                        <span style="font-size: small; font-family: arial, helvetica, sans-serif;">
+                            Na Idade Média, vários mosteiros fabricavam cerveja, empregando diversas
+                            ervas para aromatizá-la, como mírica, rosmarinho, louro, sálvia, gengibre
+                            e o lúpulo, utilizado até hoje e introduzido no processo entre os anos
+                            700 e 800, mas uso de lúpulo para dar o gosto amargo e preservar é atribuída
+                            aos monges do Mosteiro de San Gallo, na Suíça.Houve um tempo em que o papel
+                            da levedura na fermentação era desconhecido. Na época dos Vikings, cada
+                            família tinha sua própria vara de cerveja que eles usavam para agitar o
+                            a bebida durante a produção. Estas varas de cerveja eram consideradas herança
+                            de família, porque era o uso da vara que garantia que a cerveja daria certo.
+                            Hoje em dia, sabe-se que estas varas continham uma cultura de levedura.
+                            A Lei da Pureza Alemã de cerveja de 1516 - A Reinheitsgebot - definia os
+                            únicos materiais permitidos para fabricação de cerveja como sendo malte,
+                            lúpulo e água. Com a descoberta do fermento e sua função no final da década
+                            de 1860 por Louis Pasteur, a lei teve que ser alterada.
+                        </span>
+                    </p>
+                    <p>
+                        <span style="font-size: small; font-family: arial, helvetica, sans-serif;">
+                            A maior parte das cervejas, até tempos relativamente recentes, eram do
+                            tipo que agora chamamos de ales. As lagers foram descobertas por acidente
+                            no século XVI, quando a cerveja era estocada em frias cavernas por longos
+                            períodos; desde então elas ultrapassaram largamente as cervejas tipo ale
+                            em volume (veja abaixo a distinção). O lúpulo é cultivado na França desde
+                            o século IX. O mais antigo escrito remanescente a registrar o uso do lúpulo
+                            na cerveja data de 1067 pela Abadessa Hildegarda de Bingen: "Se alguém
+                            pretender fazer cerveja da aveia, deve prepará-la com lúpulo." No século
+                            XV, na Inglaterra, a fermentação sem lúpulo podia dar origem a uma bebida
+                            tipo ale - o uso do lúpulo torná-la-ia uma cerveja. A cerveja com lúpulo
+                            era importada para a Inglaterra (a partir dos Países Baixos) desde cerca
+                            de 1400, em Winchester. O lúpulo passou a ser cultivado na ilha a partir
+                            de 1428. A Companhia dos Fabricantes de Cerveja de Londres foi longe a
+                            ponto de especificar que "nenhum lúpulo, ervas, ou coisa semelhante será
+                            colocada dentro de nenhuma ale ou bebida alcoólica enquanto a ale estiver
+                            sendo feita - mas somente um licor (água), malte e uma levedura". Contudo,
+                            por volta do século XVI, "ale" veio a referir-se a qualquer cerveja forte,
+                            e todas as ales e cervejas continham lúpulo.
+                        </span>
+                    </p>
+                    <p>
+                        <span style="font-size: small; font-family: arial, helvetica, sans-serif;">
+                            No idioma eslavo, a cerveja é chamada piwo (pronuncia-se "pivo"), do verbo
+                            pić(pronuncia-se "pítch"), "beber". Por isso, piwo pode ser traduzido como
+                            "bebida", o que demonstra a importância que lhe é concedida.
+                        </span>
+                        <br>
+                        <span style="font-size: small; font-family: arial, helvetica, sans-serif;">
+                            O Kalevala, poema épico finlandês coligido na forma escrita no século
+                            XIX, mas baseado em tradições orais seculares, contém mais linhas sobre
+                            a origem da fabricação de cerveja do que sobre a origem do homem.
+                        </span>
+                    </p>
+                    <p>
+                        <span style="font-size: small;">
+                        </span>
+                    </p>
+                </div>
+            </div>
+            <div data-role="content">
+                <div style="">
+                    <img style="width: 100%; height: 100%" src="http://assets.codiqa.com/ps/41511/9d0e633df12c0b68img-estacao-beerstypestree-1.jpg">
+                </div>
+            </div>
+        </div>
+        <script>
+              //App custom javascript
+        </script>
+    </body>
+
+</html>
